@@ -24,3 +24,5 @@ NOTES:
     I've left them in situ because I understand that the Oracle
     settings may well be close to Postgres (as and when an i2b2 version
     supporting Postgres becomes available).
+(4) To deploy to the remote BRISSKit repos, you will need appropriate
+    credentials in your Maven settings.xml file.

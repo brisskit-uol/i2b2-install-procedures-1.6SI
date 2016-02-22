@@ -24,21 +24,21 @@ export DATA_DIRECTORY=data
 
 # We need a user and password for wget to maven repo
 export MVN_DEPLOY_USER=readonly
-export MVN_DEPLOY_PASSWORD=readonly....
+export MVN_DEPLOY_PASSWORD=readonly...
 
 # Acquisition paths:
-export JDK_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/oracle/jdk/jdk/6u39-linux/jdk-6u39-linux-x64.bin
-export ANT_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/apache/ant/apache-ant/1.8.4/apache-ant-1.8.4-bin.zip
-export JBOSS_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA-brisskit/jboss-4.2.3.GA-brisskit-development.zip
-#export I2B2_SOURCE_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/155-briccs-1.0/i2b2core-src-155-briccs-1.0.zip
-#export I2B2_DATA_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/15-briccs-1.0/i2b2demodata-15-briccs-1.0.zip
+export JDK_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/oracle/jdk/jdk/6u39-linux/jdk-6u39-linux-x64.bin
+export ANT_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/apache/ant/apache-ant/1.8.4/apache-ant-1.8.4-bin.zip
+export JBOSS_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA-brisskit/jboss-4.2.3.GA-brisskit-development.zip
+#export I2B2_SOURCE_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/155-briccs-1.0/i2b2core-src-155-briccs-1.0.zip
+#export I2B2_DATA_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/15-briccs-1.0/i2b2demodata-15-briccs-1.0.zip
 
-export I2B2_SOURCE_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/1609/i2b2core-src-1609.zip
-export I2B2_DATA_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/1609-brisskit-1.0/i2b2demodata-1609-brisskit-1.0.zip
+export I2B2_SOURCE_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/1609/i2b2core-src-1609.zip
+export I2B2_DATA_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/1609-brisskit-1.0/i2b2demodata-1609-brisskit-1.0.zip
 
-export AXIS_WAR_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/axis/axis2/size-11047678/axis2-size-11047678.war
-export I2B2_INTEGRATION_WS_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2WS/1.0-RC1/i2b2WS-1.0-RC1.war
-export I2B2_ADMIN_PROCEDURES_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2-admin-procedures/1.0-RC1-production/i2b2-admin-procedures-1.0-RC1-production.zip
+export AXIS_WAR_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/axis/axis2/size-11047678/axis2-size-11047678.war
+export I2B2_INTEGRATION_WS_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2WS/1.0-RC1/i2b2WS-1.0-RC1.war
+export I2B2_ADMIN_PROCEDURES_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2-admin-procedures/1.0-RC1-production/i2b2-admin-procedures-1.0-RC1-production.zip
 
 # Directory Names for some of the installs...
 export JDK_DIRECTORY_NAME=jdk1.6.0_39
